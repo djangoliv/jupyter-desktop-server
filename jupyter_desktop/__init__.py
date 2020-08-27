@@ -34,6 +34,6 @@ def setup_desktop():
         ],
         'port': 5901,
         'timeout': 30,
-        'mappath': {'/': '/vnc_lite.html'},
+        'mappath': {'/': '/vnc.html?resize=remote&autoconnect=true'},
         'new_browser_window': True
     }
